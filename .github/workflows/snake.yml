@@ -74,7 +74,7 @@ jobs:
 
         env:
 
-          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
 
 
 
@@ -86,7 +86,7 @@ jobs:
 
         with:
 
-          pat_token: ${{ secrets.PAT_TOKEN }}
+          personal_token: ${{ secrets.PAT_TOKEN }}
 
           publish_dir: ./dist
 
